@@ -11,6 +11,7 @@ go get github.com/csimplestring/dev-utils
 
 # features
 - file watcher
+- stop watch
 
 # examples
 - *file watcher*: The file watch will detects if the file is changed or not, and execute a callback if it is changed. 
@@ -40,4 +41,5 @@ go get github.com/csimplestring/dev-utils
 	assert.Equal(t, 1, cnt)
 
 ``` 
+- *stop watch*: the stop watch sometimes can help developers to log the running time of functions, code blocks etc. See [Example](https://github.com/csimplestring/dev-utils/blob/main/pkg/debug/stopwatch_test.go).
 
