@@ -12,6 +12,7 @@ go get github.com/csimplestring/dev-utils
 # features
 - file watcher
 - stop watch
+- ring buffer matcher
 
 # examples
 - *file watcher*: The file watch will detects if the file is changed or not, and execute a callback if it is changed. 
@@ -42,4 +43,7 @@ go get github.com/csimplestring/dev-utils
 
 ``` 
 - *stop watch*: the stop watch sometimes can help developers to log the running time of functions, code blocks etc. See [Example](https://github.com/csimplestring/dev-utils/blob/main/pkg/debug/stopwatch_test.go).
+
+- *ring buffer matcher*: A RingBuffer that can be used to scan byte sequences for subsequences. This class implements an efficient naive search algorithm, which allows the user of the library to identify byte sequences in a stream on-the-fly so that the stream can be segmented without having to buffer the data.
+
 
